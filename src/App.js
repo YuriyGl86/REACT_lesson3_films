@@ -3,11 +3,10 @@ import './App.css';
 import { Stars } from './components/Stars';
 
 function App() {
-  const count = 3
+  const count = 4
   return (
     <>
-      <Stars count = { count }/>
-     
+      <Stars count = { count }/>     
     </>
   );
 }
